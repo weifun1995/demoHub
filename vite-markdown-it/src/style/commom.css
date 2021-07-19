@@ -1,0 +1,59 @@
+
+.language-name{
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  user-select: none;
+}
+
+.lines{
+}
+
+.line {
+  display: inline-block;
+  padding-left: 6em;
+}
+
+.line-numbers{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+    top: 0;
+    padding-top: 16px;
+    width: 4em;
+    padding-left: 1em;
+    border-radius: 8px 0 0 8px;
+    border-right: 1px solid #000;
+    user-select: none;
+}
+
+.line-number{
+  display: inline-block;
+  
+}
+
+.MdView {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.viewBox {
+  flex: 1;
+}
+
+.nav {
+  width: 250px;
+  padding: 20px;
+  box-shadow: -2px 0 5px #ccc,2px 0 5px #ccc;
+  margin: 4em;
+}
+
+.level {
+  display: block;
+  color: rgb(69, 77, 100);
+  text-decoration:none;
+}
+
+.child {
+  padding-left: 1em;
+}
