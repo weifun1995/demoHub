@@ -1,0 +1,127 @@
+.language-name {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  user-select: none;
+}
+
+.lines {
+  position: relative;
+  z-index: 10;
+}
+
+.line {
+  display: inline-block;
+  padding-left: 6em;
+}
+
+
+.line-numbers {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  padding-top: 16px;
+  width: 4em;
+  padding-left: 1em;
+  border-radius: 8px 0 0 8px;
+  border-right: 1px solid #000;
+  user-select: none;
+  z-index: 10;
+}
+
+.line-number {
+  display: inline-block;
+}
+
+.light-lines {
+  position: absolute;
+  width: 100%;
+  top: 16px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.light-line {
+  display: block;
+}
+.light-line-active {
+  background: rgba(0, 0, 0, 0.66);
+}
+
+.MdView {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.viewBox {
+  flex: 1;
+}
+
+.nav {
+  width: 250px;
+  padding: 20px;
+  box-shadow: -2px 0 5px #ccc, 2px 0 5px #ccc;
+  margin: 4em;
+  height: max-content;
+}
+
+.level {
+  display: block;
+  color: rgb(69, 77, 100);
+  text-decoration: none;
+}
+
+.child {
+  padding-left: 1em;
+}
+
+.custom-block{
+  padding: .1rem 1.5rem;
+  border-left-width: .5rem;
+  border-left-style: solid;
+  margin: 1rem 0;
+}
+.custom-block-title {
+  font-weight: 600;
+  margin-top: 1em;
+}
+.custom-block.tip {
+  background-color: #f3f5f7;
+  border-color: #42b983;
+}
+.title-tip {
+  color: #42b983;
+}
+
+.custom-block.warning {
+  background-color: rgba(255,229,100,.3);
+  border-color: #e7c000;
+  color: #6b5900;
+}
+.title-warning {
+  color: #b29400;
+}
+
+.custom-block.danger {
+  background-color: #ffe6e6;
+  border-color: #c00;
+  color: #4d0000;
+}
+.title-danger {
+  color: #900;
+}
+
+.custom-block.details {
+  display: block;
+  position: relative;
+  border-radius: 2px;
+  margin: 1.6em 0;
+  padding: 1.6em;
+  background-color: #eee;
+  border-left: 0;
+}
+
+.custom-block.details summary {
+  margin: 1em 0;
+}

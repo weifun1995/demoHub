@@ -7,10 +7,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "docxtemplater": "^3.28.2",
     "file-saver": "^2.0.5",
+    "highlight.js": "^11.3.1",
     "jr-qrcode": "^1.1.4",
     "jszip": "^3.7.1",
+    "less": "^4.1.2",
+    "markdown-it": "^12.3.0",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-toc-and-anchor": "^4.2.0",
     "pizzip": "^3.1.1",
     "vue": "^3.2.25"
   },

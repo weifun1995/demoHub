@@ -1,9 +1,9 @@
 <script setup>
-import docxtemplater from './components/docxtemplater.vue'
+import markdown from './components/markdown-it.vue'
 </script>
 
 <template>
-<docxtemplater></docxtemplater>
+  <markdown></markdown>
 </template>
 
 <style>
