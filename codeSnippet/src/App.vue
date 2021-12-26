@@ -1,9 +1,9 @@
 <script setup>
-import qrCode from './components/jr-qrcode.vue'
+import docxtemplater from './components/docxtemplater.vue'
 </script>
 
 <template>
-<qrCode></qrCode>
+<docxtemplater></docxtemplater>
 </template>
 
 <style>
